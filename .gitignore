@@ -1,0 +1,21 @@
+# Ignore node_modules directory
+node_modules
+package-lock.json
+.idea
+.history
+.DS_Store
+# Ignore built output
+dist/
+
+# Ignore Cypress videos and screenshots
+cypress/videos/
+cypress/screenshots/
+
+
+# Ignore TypeScript compilation artifacts
+*.js
+*.js.map
+
+# Ignore Visual Studio Code specific files and directories
+.vscode/
+*.code-workspace
